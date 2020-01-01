@@ -1,0 +1,82 @@
+[user]
+  name = B Λ R T
+  email = hello@bar.tk
+  signingkey = F199EB9BD9DE593474D34B8ED4A56A702DC42588
+
+[alias]
+  st = status
+  co = checkout
+  cob = checkout -b
+  cm = commit -S
+
+  aa = add -A
+
+  save = !git add -A && git commit -m 'SAVEPOINT'
+  wip = !git add -u && git commit -m 'WIP'
+  undo = reset HEAD~1 --mixed
+  amend = commit -S -a --amend
+
+  wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
+  #bclean = "!f() { git branch --merged ${1-master} | grep -v " ${1-master}$" | xargs -r git branch -d; }; f"
+  bclean = !git checkout - && LAST_BRANCH=$(git rev-parse --abbrev-ref HEAD) && git checkout - && git push origin --delete $LAST_BRANCH && git branch -d $LAST_BRANCH
+  bdone = "!f() { git checkout ${1-master} && git up && git bclean ${1-master}; }; f"
+
+  del = "branch -d"
+  rdel = "push --delete origin"
+
+  br = branch
+  up = !git pull --rebase --prune $@ && git submodule update --init --recursive
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  sub = submodule update
+  this-branch = rev-parse --abbrev-ref HEAD
+  remote-branch-name = "!git describe --contains --all --match 'remotes/origin/*' --always HEAD"
+  shove = "!git push -u origin $(git this-branch)"
+  meld = merge --no-ff
+  oops = reset --soft 'HEAD^'
+  toss = reset --hard
+  rollback = reset --hard HEAD~$1
+  sync = pull --rebase
+  merge-to-branch = !merge-to-branch.sh -b $1
+  diffy = diff --ignore-space-change
+
+[help]
+  autocorrect = 30
+
+[core]
+	editor = /usr/local/bin/vim
+  mergeoptions = --no-edit
+	trustctime = false
+
+[color]
+  ui = auto
+
+[push]
+  default = simple
+
+[merge]
+	tool = p4merge
+
+[mergetool]
+	keepBackup = false
+
+[mergetool "p4merge"]
+  cmd = /Applications/p4merge.app/Contents/MacOS/p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+  keepTemporaries = false
+  trustExitCode = false
+  keepBackup = false
+
+[diff]
+  tool = p4merge
+
+[difftool "p4merge"]
+  cmd = /Applications/p4merge.app/Contents/MacOS/p4merge "$LOCAL" "$REMOTE"
+
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+
+[commit]
+	gpgsign = true
+
+[gpg]
+	program = /usr/local/MacGPG2/bin/gpg2
