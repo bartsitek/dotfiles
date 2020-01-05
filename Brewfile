@@ -66,7 +66,6 @@ brew "readline"
 brew "rsync"
 brew "terraform"
 brew "tig"
-brew "gitg"
 brew "tmux"
 brew "tree"
 

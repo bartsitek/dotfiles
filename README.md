@@ -90,7 +90,6 @@ Here is a list of software installed by the tool:
 - rsync
 - terraform
 - tig
-- gitg
 - tmux
 - tree
 - arduino
