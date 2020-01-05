@@ -27,8 +27,9 @@ This tool is running two steps:
 - First it's *installing* all the necessary software.
 - Then it's *setting up* custom settings.
 
-It is important to properly set up Dropbox and Keybase before running the setup step.
+⚠️ It is important to properly set up Dropbox and Keybase before running the setup step.
 
+Here is the current architecture:
 - *Public Configurations:* This Repository
 - *Private Configurations:* Keybase
 - *Volatile Configurations* (Sublime Text, iTerm2 etc.): Dropbox
