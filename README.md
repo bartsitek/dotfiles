@@ -30,9 +30,9 @@ This tool is running two steps:
 ⚠️ It is important to properly set up Dropbox and Keybase before running the setup step.
 
 Here is the current architecture:
-- *Public Configurations:* This Repository
-- *Private Configurations:* Keybase
-- *Volatile Configurations* (Sublime Text, iTerm2 etc.): Dropbox
+- **Public Configurations:** This Repository
+- **Private Configurations:** Keybase
+- **Volatile Configurations** (Sublime Text, iTerm2 etc.): Dropbox
 
 # Software Installation
 Here is a list of software installed by the tool:
