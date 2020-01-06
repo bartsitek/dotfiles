@@ -38,7 +38,7 @@ This tool is running two steps:
 
 Here is the current architecture:
 
-| Access Scope | Medium | Description |
+| Type | Medium | Description |
 | --- | --- | --- |
 | Public | This Repo | Shareable configuration files |
 | Private | Keybase | Secret configuration files |
