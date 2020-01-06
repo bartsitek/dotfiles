@@ -1,6 +1,6 @@
 # 🗃 dotfiles
 
-This installs my dotfiles on MacOS platform.
+This installs my **dotfiles™** on MacOS platform.
 
 <!-- TOC -->
 
