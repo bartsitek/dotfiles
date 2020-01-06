@@ -48,7 +48,7 @@ Volatile
 | Private | Keybase | Secret configuration files |
 | Volatile | Dropbox | Frequently changing configuration files (Sublime Text, iTerm etc.) |
 
-⚠️ It is important to properly set up Dropbox and Keybase before running the setup step.
+⚠️ It is important to properly set up Dropbox and Keybase before running the setup step.\
 This will set **Private and Volatile** configurations to run properly.
 
 # Setup
