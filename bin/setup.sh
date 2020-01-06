@@ -57,6 +57,7 @@ link $(PWD)/.bash.d ~/.bash.d
 link $(PWD)/.zshrc ~/.zshrc
 link $(PWD)/gerty.zsh-theme ~/.oh-my-zsh/custom/themes/gerty.zsh-theme
 link $(PWD)/SpaceVim.init.vim ~/.SpaceVim.d/init.vim
+link $(PWD)/karabiner.json ~/.config/karabiner/karabiner.json
 ok
 
 ######################################
