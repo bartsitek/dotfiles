@@ -22,15 +22,6 @@ This installs my **dotfiles™** on MacOS platform.
 📇 Keyboard:       FKBN87MC/EFB2 FILCO NINJA Tenkeyless, Mac remapped w/ Karabiner
 ```
 
-# Installation
-
-```
-$ git clone git@github.com:brtstk/dotfiles.git
-$ cd dotfiles
-$ make [install]
-$ make setup
-```
-
 # Architecture
 This tool is running two steps:
 1. *Installs* all the necessary software.
@@ -46,6 +37,15 @@ Here is the current architecture:
 
 ⚠️ It is important to properly set up Dropbox and Keybase before running the setup step.\
 This will set **Private and Volatile** configurations to run properly.
+
+# Installation
+
+```
+$ git clone git@github.com:brtstk/dotfiles.git
+$ cd dotfiles
+$ make [install]
+$ make setup
+```
 
 # Included Software
 Here is a list of software installed by the tool:
