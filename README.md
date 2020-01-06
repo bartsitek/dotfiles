@@ -4,15 +4,23 @@ This installs my dotfiles on MacOS platform.
 
 <!-- TOC -->
 
+- [Setup](#setup)
 - [Installation](#installation)
 - [Architecture](#architecture)
-- [Setup](#setup)
 - [Included Software](#included-software)
   - [Fonts](#fonts)
   - [Utils](#utils)
   - [Work](#work)
 
 <!-- /TOC -->
+
+# Setup
+
+```
+🖥 OS:             MacOS
+📺 Terminal/Shell: iTerm2 w/ Oh My ZSH
+📇 Keyboard:       FILCO Ninja, remapped w/ Karabiner
+```
 
 # Installation
 
@@ -50,14 +58,6 @@ Volatile
 
 ⚠️ It is important to properly set up Dropbox and Keybase before running the setup step.\
 This will set **Private and Volatile** configurations to run properly.
-
-# Setup
-
-```
-🖥 OS:             MacOS
-📺 Terminal/Shell: iTerm2 w/ Oh My ZSH
-📇 Keyboard:       FILCO Ninja, remapped w/ Karabiner
-```
 
 # Included Software
 Here is a list of software installed by the tool:
