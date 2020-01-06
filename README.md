@@ -4,7 +4,7 @@ This installs my dotfiles on MacOS platform.
 
 <!-- TOC -->
 
-- [Setup](#setup)
+- [Setup Overview](#setup-overview)
 - [Installation](#installation)
 - [Architecture](#architecture)
 - [Included Software](#included-software)
@@ -14,7 +14,7 @@ This installs my dotfiles on MacOS platform.
 
 <!-- /TOC -->
 
-# Setup
+# Setup Overview
 
 ```
 🖥 OS:             MacOS
