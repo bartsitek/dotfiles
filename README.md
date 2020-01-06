@@ -38,18 +38,6 @@ This tool is running two steps:
 
 Here is the current architecture:
 
-```
-Public             Private
-+-------------+    +-------------+
-|  This Repo  | -- |   Keybase   |
-+-------------+    +-------------+
-       |
-+-------------+
-|   Dropbox   |
-+-------------+
-Volatile
-```
-
 | Access Scope | Medium | Description |
 | --- | --- | --- |
 | Public | This Repo | Shareable configuration files |
