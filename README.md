@@ -6,7 +6,8 @@ This installs my dotfiles on MacOS platform.
 
 - [Installation](#installation)
 - [Architecture](#architecture)
-- [Software Installation](#software-installation)
+- [Setup](#setup)
+- [Included Software](#included-software)
   - [Fonts](#fonts)
   - [Utils](#utils)
   - [Work](#work)
@@ -25,16 +26,40 @@ $ make setup
 # Architecture
 This tool is running two steps:
 - First it's *installing* all the necessary software.
-- Then it's *setting up* custom settings.
-
-⚠️ It is important to properly set up Dropbox and Keybase before running the setup step.
+- Then it's *setting* the system *up* with custom settings.
 
 Here is the current architecture:
-- **Public Configurations:** This Repository
-- **Private Configurations:** Keybase
-- **Volatile Configurations** (Sublime Text, iTerm2 etc.): Dropbox
 
-# Software Installation
+```
+Public             Private
++-------------+    +-------------+
+|  This Repo  | -- |   Keybase   |
++-------------+    +-------------+
+       |
++-------------+
+|   Dropbox   |
++-------------+
+Volatile
+```
+
+| Access Scope | Medium | Description |
+| --- | --- | --- |
+| Public | This Repo | Shareable configuration files |
+| Private | Keybase | Secret configuration files |
+| Volatile | Dropbox | Frequently changing configuration files (Sublime Text, iTerm etc.) |
+
+⚠️ It is important to properly set up Dropbox and Keybase before running the setup step.
+This will set **Private and Volatile** configurations to run properly.
+
+# Setup
+
+```
+🖥   OS:             MacOS
+📟   Terminal/Shell: iTerm2 w/ Oh My ZSH
+⌨️   Keyboard:       FILCO Ninja, remapped w/ Karabiner
+```
+
+# Included Software
 Here is a list of software installed by the tool:
 
 ## Fonts
