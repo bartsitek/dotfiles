@@ -33,8 +33,8 @@ $ make setup
 
 # Architecture
 This tool is running two steps:
-- First it's *installing* all the necessary software.
-- Then it's *setting* the system *up* with custom settings.
+1. *Installs* all the necessary software.
+2. *Sets up* the system with custom settings.
 
 Here is the current architecture:
 
