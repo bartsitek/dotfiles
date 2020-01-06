@@ -19,7 +19,7 @@ This installs my **dotfiles™** on MacOS platform.
 ```
 🖥 OS:             MacOS
 📺 Terminal/Shell: True Color (24-bit) iTerm2 w/ Oh My ZSH
-📇 Keyboard:       FILCO Ninja, remapped w/ Karabiner
+📇 Keyboard:       FILCO NINJA Tenkeyless, Mac remapped w/ Karabiner
 ```
 
 # Installation
