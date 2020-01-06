@@ -54,9 +54,9 @@ This will set **Private and Volatile** configurations to run properly.
 # Setup
 
 ```
-🖥   OS:             MacOS
-📟   Terminal/Shell: iTerm2 w/ Oh My ZSH
-⌨️   Keyboard:       FILCO Ninja, remapped w/ Karabiner
+🖥 OS:             MacOS
+📺 Terminal/Shell: iTerm2 w/ Oh My ZSH
+📇 Keyboard:       FILCO Ninja, remapped w/ Karabiner
 ```
 
 # Included Software
