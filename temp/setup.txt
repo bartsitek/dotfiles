@@ -1,0 +1,7 @@
+sudo ln -sfn $(PWD)/.gitconfig ~/.gitconfig
+sudo ln -sfn $(PWD)/.bash.d ~/.bash.d
+sudo ln -sfn $(PWD)/.zshrc ~/.zshrc
+sudo ln -sfn $(PWD)/gerty.zsh-theme ~/.oh-my-zsh/custom/themes/gerty.zsh-theme
+sudo ln -sfn $(PWD)/SpaceVim.init.vim ~/.SpaceVim.d/init.vim
+
+spacevim, p4merge
